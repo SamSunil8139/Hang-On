@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang on</title>
+    <!--adding bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--adding font style-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--linking style sheet-->
+    <link rel="stylesheet" href="hangon.css">
+</head>
+
+<body>
+    
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="brand-title"><img src="images/hotel logo.png" alt="logo">Hang <span>On</span></div>
+            <a href="#" class="toggle-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="11" viewBox="0 0 19 11"><defs><style>.a{fill:#FFFFFF;stroke:#040404;}.b{stroke:none;}.c{fill:none;}</style></defs><g transform="translate(-10 -9)"><g class="a" transform="translate(10 9)"><rect class="b" width="19" height="1" rx="0.5"/><rect class="c" x="0.5" y="0.5" width="18"/></g><g class="a" transform="translate(10 14)"><rect class="b" width="12" height="1" rx="0.5"/><rect class="c" x="0.5" y="0.5" width="11"/></g><g class="a" transform="translate(10 19)"><rect class="b" width="19" height="1" rx="0.5"/><rect class="c" x="0.5" y="0.5" width="18"/></g></g></svg>
+            </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Finder</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="profile">
+            <h4>Jack Pitter</h4>
+            <img src="images/img_avatar.png" alt="profile pic">
+            <p>></p>
+        </div>
+    </nav>
+    <!--navbar ends-->
+
+    <!--center section-->
+    <div class="main-text">
+        <div class="content">
+            <h1>Choose where you want </br> to enjoy your <span>lifestyle.</span></h1>
+        </div>
+
+        <!--white search box-->
+        <div class="boxes">
+            <div class="searchbx">
+                <div class="location">
+                    <h5>Location</h5>
+                    <input type="text" placeholder="|Search city, locality, or neighborhood">
+                </div>
+                <div class="vertical-line"></div>
+                <div class="beds">
+                    <h5><label for="beds">Beds</label></h5>
+                    <select name="Beds" id="beds">
+                        <option value="4">4</option>
+                        <option value="2">2</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="home-type">
+                    <label><h5>Home Type</h5></label></br>
+                    <select name="house type" id="hType">
+                        <option value="House">House</option>
+                        <option value="resort">Resort</option>
+                        <option value="villa">Villa</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <a href="home-1.html"><img src="images/Group 902.svg" alt="search box"></a>
+                </div>
+          </div>
+
+          <!--for mobile-->
+          <div class="searchboxnew">
+                <div class="bedsm">
+                    <h5><label for="beds">Beds</label></h5>
+                    <select name="Bedsm" id="beds">
+                        <option value="4">4</option>
+                        <option value="2">2</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div class="vertical-line"> </div>
+                <div class="bath">
+                    <label><h5>Bath</h5></label></br>
+                    <select name="bath" id="bath">
+                        <option value="4">4</option>
+                        <option value="2">2</option>
+                    </select>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="home-typem">
+                    <label><h5>Home Type</h5></label></br>
+                    <select name="house type" id="hType">
+                        <option value="House">House</option>
+                        <option value="resort">Resort</option>
+                        <option value="villa">Villa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="searchm">
+                <form action="home-1.html">
+                    <button type="submit" name="submit">Search</button>
+                </form>
+            </div>
+            <!--until here-->
+
+        </div>
+      </div>
+    <!--center section ends-->
+
+    <!--footer-->
+    <div class="footer">
+        <div class="social-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30.689" height="30.561" viewBox="0 0 30.689 30.561"><defs><style>.a{fill:rgb(255, 255, 255);}</style></defs><g transform="translate(0 0)"><path class="a" d="M15.344.349a15.336,15.336,0,0,0-2.559,30.458V18.895h-3.7V14.608h3.7V11.447c0-3.668,2.24-5.666,5.512-5.666a30.547,30.547,0,0,1,3.305.168V9.782h-2.27c-1.779,0-2.122.845-2.122,2.086v2.736h4.245L20.9,18.892H17.211V30.91A15.337,15.337,0,0,0,15.344.349Z" transform="translate(0 -0.349)"/></g></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="31.515" height="31.515" viewBox="0 0 31.515 31.515"><defs><style>.a{fill:rgb(255, 255, 255);}</style></defs><path class="a" d="M15.757,0A15.757,15.757,0,1,0,31.515,15.757,15.759,15.759,0,0,0,15.757,0Zm7.195,12.286q.01.233.01.467A10.221,10.221,0,0,1,12.672,23.044h0a10.237,10.237,0,0,1-5.544-1.625,7.356,7.356,0,0,0,.863.05,7.257,7.257,0,0,0,4.492-1.548A3.621,3.621,0,0,1,9.1,17.409a3.6,3.6,0,0,0,1.634-.062,3.618,3.618,0,0,1-2.9-3.545c0-.016,0-.031,0-.046a3.592,3.592,0,0,0,1.638.452,3.62,3.62,0,0,1-1.12-4.828,10.268,10.268,0,0,0,7.455,3.779,3.619,3.619,0,0,1,6.163-3.3,7.254,7.254,0,0,0,2.3-.878,3.631,3.631,0,0,1-1.59,2,7.213,7.213,0,0,0,2.077-.57,7.35,7.35,0,0,1-1.8,1.873Zm0,0"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.a{fill:rgb(255, 255, 255);}</style></defs><path class="a" d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0ZM11.351,24.188h-3.9V12.464h3.9ZM9.4,10.863H9.377a2.031,2.031,0,1,1,.051-4.051A2.032,2.032,0,1,1,9.4,10.863Zm16,13.324h-3.9V17.916c0-1.576-.564-2.651-1.974-2.651a2.133,2.133,0,0,0-2,1.425,2.668,2.668,0,0,0-.128.951v6.547h-3.9s.051-10.624,0-11.723h3.9v1.66a3.869,3.869,0,0,1,3.512-1.935c2.564,0,4.486,1.676,4.486,5.276Zm0,0"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.a{fill:rgb(255, 255, 255);}</style></defs><path class="a" d="M224.113,214.034l5.2-3-5.2-3Zm0,0" transform="translate(-210.106 -195.037)"/><path class="a" d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0ZM26,16.016a26.408,26.408,0,0,1-.412,4.81,2.505,2.505,0,0,1-1.762,1.762C22.259,23,16,23,16,23s-6.242,0-7.823-.428a2.506,2.506,0,0,1-1.762-1.762A26.292,26.292,0,0,1,6,16a26.39,26.39,0,0,1,.412-4.809A2.556,2.556,0,0,1,8.176,9.412C9.741,9,16,9,16,9s6.259,0,7.824.428a2.506,2.506,0,0,1,1.762,1.762A25.06,25.06,0,0,1,26,16.016Zm0,0"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.a{fill:rgb(255, 255, 255);}</style></defs><path class="a" d="M213.125,210.063A3.063,3.063,0,1,1,210.063,207,3.062,3.062,0,0,1,213.125,210.063Zm0,0" transform="translate(-194.063 -194.063)"/><path class="a" d="M150.179,137.6a3.043,3.043,0,0,0-1.744-1.744,5.085,5.085,0,0,0-1.706-.316c-.969-.044-1.259-.054-3.713-.054s-2.744.009-3.713.053a5.089,5.089,0,0,0-1.706.316,3.044,3.044,0,0,0-1.744,1.744,5.085,5.085,0,0,0-.316,1.706c-.044.969-.054,1.259-.054,3.713s.01,2.744.054,3.713a5.084,5.084,0,0,0,.316,1.706,3.043,3.043,0,0,0,1.744,1.744,5.078,5.078,0,0,0,1.706.316c.969.044,1.259.053,3.712.053s2.744-.009,3.713-.053a5.077,5.077,0,0,0,1.706-.316,3.043,3.043,0,0,0,1.744-1.744,5.089,5.089,0,0,0,.316-1.706c.044-.969.053-1.259.053-3.713s-.009-2.744-.053-3.713A5.077,5.077,0,0,0,150.179,137.6Zm-7.162,10.136a4.718,4.718,0,1,1,4.718-4.718A4.718,4.718,0,0,1,143.017,147.738Zm4.9-8.52a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,147.921,139.219Zm0,0" transform="translate(-127.017 -127.021)"/><path class="a" d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Zm9.132,19.788a6.741,6.741,0,0,1-.427,2.23,4.7,4.7,0,0,1-2.687,2.687,6.745,6.745,0,0,1-2.23.427c-.98.045-1.293.055-3.788.055s-2.808-.011-3.788-.055a6.745,6.745,0,0,1-2.23-.427A4.7,4.7,0,0,1,7.3,22.018a6.739,6.739,0,0,1-.427-2.23c-.045-.98-.056-1.293-.056-3.788s.01-2.808.055-3.788a6.741,6.741,0,0,1,.427-2.23A4.7,4.7,0,0,1,9.982,7.295a6.747,6.747,0,0,1,2.23-.427c.98-.045,1.293-.055,3.788-.055s2.808.011,3.788.056a6.748,6.748,0,0,1,2.23.427,4.7,4.7,0,0,1,2.687,2.687,6.74,6.74,0,0,1,.427,2.23c.045.98.055,1.293.055,3.788S25.177,18.808,25.132,19.788Zm0,0"/></svg>
+            <div class="copy">
+                <p>Copyright &copy; All Rights Reserved 2021</p>
+            </div>
+        </div> 
+    </div>
+    <!--footer ends-->
+   <script src="hangon.js"></script>
+</body>
+</html>
